@@ -1,7 +1,7 @@
 import { FormData } from "@/app/ui/ContactForm";
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = "/api/email";
+  const apiEndpoint = "http://localhost:3000/api/email";
 
   fetch(apiEndpoint, {
     method: "POST",
