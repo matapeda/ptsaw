@@ -1,7 +1,7 @@
 import { FormData } from "@/app/ui/ContactForm";
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = "http://localhost:3000/api/email";
+  const apiEndpoint = "https://ptsaw.vercel.app/api/email";
 
   fetch(apiEndpoint, {
     method: "POST",
